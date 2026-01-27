@@ -33,4 +33,4 @@ lerna-debug.log*
 # Dist
 dist
 dist-ssr
-docs/.vitepress
+docs/.vitepress/cache
