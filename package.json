@@ -1,0 +1,24 @@
+{
+  "name": "pokeforum-docs",
+  "version": "1.0.0",
+  "description": "PokeForum API Documentation",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PokeForum/PokeForum-Docs.git"
+  },
+  "keywords": ["documentation", "vitepress", "api"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PokeForum/PokeForum-Docs/issues"
+  },
+  "homepage": "https://github.com/PokeForum/PokeForum-Docs#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
