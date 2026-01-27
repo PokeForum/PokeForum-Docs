@@ -13,11 +13,8 @@ hero:
       text: 快速开始
       link: /guide/getting-started
     - theme: alt
-      text: API 文档
-      link: /api/endpoints
-    - theme: alt
       text: GitHub
-      link: https://github.com/PokeForum/PokeForum-Docs
+      link: https://github.com/PokeForum/PokeForum
 
 features:
   - icon: ⚡️
