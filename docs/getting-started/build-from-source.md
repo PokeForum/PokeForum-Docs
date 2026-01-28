@@ -10,16 +10,16 @@
 
 ## 后端编译
 
-\`\`\`bash
+```bash
 git clone https://github.com/PokeForum/PokeForum.git
 cd PokeForum
 go build -o pokeforum
-\`\`\`
+```
 
 ## 前端编译
 
-\`\`\`bash
+```bash
 cd web
 pnpm install
 pnpm build
-\`\`\`
+```

@@ -30,9 +30,9 @@ export default defineConfig({
             text: '部署',
             collapsed: false,
             items: [
-              { text: 'Docker 启动', link: '/getting-started/deployment/docker' },
-              { text: 'Docker-Compose 启动', link: '/getting-started/deployment/docker-compose' },
-              { text: '二进制部署', link: '/getting-started/deployment/binary' }
+              { text: 'Docker', link: '/getting-started/deployment/docker' },
+              { text: 'Docker-Compose', link: '/getting-started/deployment/docker-compose' },
+              { text: '二进制', link: '/getting-started/deployment/binary' }
             ]
           },
           {

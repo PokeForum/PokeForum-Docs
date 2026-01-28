@@ -8,7 +8,7 @@
 
 ## 运行
 
-\`\`\`bash
+```bash
 chmod +x pokeforum
 ./pokeforum
-\`\`\`
+```

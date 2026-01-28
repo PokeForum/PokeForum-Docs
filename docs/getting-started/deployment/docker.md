@@ -1,4 +1,4 @@
-# Docker 启动
+# Docker
 
 使用 Docker 单独启动 PokeForum API。
 
@@ -9,6 +9,6 @@
 
 ## 启动命令
 
-\`\`\`bash
+```bash
 docker run -d -p 8080:8080 pokeforum/api:latest
-\`\`\`
+```

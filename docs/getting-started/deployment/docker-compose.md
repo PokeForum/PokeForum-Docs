@@ -1,4 +1,4 @@
-# Docker-Compose 启动
+# Docker-Compose
 
 使用 Docker Compose 一键启动完整服务。
 
@@ -9,17 +9,17 @@
 
 ## 启动步骤
 
-\`\`\`bash
+```bash
 docker-compose up -d
-\`\`\`
+```
 
 ## 配置文件
 
-\`\`\`yaml
+```yaml
 version: '3.8'
 services:
   api:
     image: pokeforum/api:latest
     ports:
       - "8080:8080"
-\`\`\`
+```

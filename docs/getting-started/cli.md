@@ -4,9 +4,9 @@ PokeForum CLI 命令参考。
 
 ## 基本用法
 
-\`\`\`bash
+```bash
 pokeforum [command] [flags]
-\`\`\`
+```
 
 ## 可用命令
 
@@ -19,10 +19,10 @@ pokeforum [command] [flags]
 
 ## 示例
 
-\`\`\`bash
+```bash
 # 启动服务器
 pokeforum server
 
 # 创建管理员
 pokeforum admin --username admin --password secret
-\`\`\`
+```

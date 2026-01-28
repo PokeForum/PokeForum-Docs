@@ -18,28 +18,28 @@
 
 1. **Fork 仓库**
 
-\`\`\`bash
+```bash
 git clone https://github.com/YOUR_USERNAME/PokeForum.git
 cd PokeForum
-\`\`\`
+```
 
 2. **创建分支**
 
-\`\`\`bash
+```bash
 git checkout -b feature/your-feature-name
-\`\`\`
+```
 
 3. **提交更改**
 
-\`\`\`bash
+```bash
 git commit -m "feat: add some feature"
-\`\`\`
+```
 
 4. **推送到分支**
 
-\`\`\`bash
+```bash
 git push origin feature/your-feature-name
-\`\`\`
+```
 
 5. **创建 Pull Request**
 
