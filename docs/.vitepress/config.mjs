@@ -21,27 +21,52 @@ export default defineConfig({
       }
     ],
 
-    sidebar: {
-      '/guide/': [
-        {
-          text: '入门指南',
-          items: [
-            { text: '快速开始', link: '/guide/getting-started' },
-            { text: 'API 参考', link: '/guide/api-reference' }
-          ]
-        }
-      ],
-      '/api/': [
-        {
-          text: 'API 文档',
-          items: [
-            { text: '端点列表', link: '/api/endpoints' },
-            { text: '认证', link: '/api/authentication' },
-            { text: '错误处理', link: '/api/errors' }
-          ]
-        }
-      ]
-    },
+    sidebar: [
+      {
+        text: '起步',
+        items: [
+          { text: '快速开始', link: '/getting-started/quick-start' },
+          {
+            text: '部署',
+            collapsed: false,
+            items: [
+              { text: 'Docker 启动', link: '/getting-started/deployment/docker' },
+              { text: 'Docker-Compose 启动', link: '/getting-started/deployment/docker-compose' },
+              { text: '二进制部署', link: '/getting-started/deployment/binary' }
+            ]
+          },
+          {
+            text: '用户端独立部署',
+            collapsed: false,
+            items: [
+              { text: '腾讯 EO Pages 部署', link: '/getting-started/frontend/tencent-eo' },
+              { text: 'Vercel 部署', link: '/getting-started/frontend/vercel' }
+            ]
+          },
+          { text: '从源代码编译', link: '/getting-started/build-from-source' },
+          { text: '命令行', link: '/getting-started/cli' },
+          { text: '配置', link: '/getting-started/configuration' }
+        ]
+      },
+      {
+        text: '使用',
+        items: [
+          { text: '功能介绍', link: '/usage/' },
+        ]
+      },
+      {
+        text: '维护',
+        items: [
+          { text: '更新', link: '/maintenance/update' }
+        ]
+      },
+      {
+        text: '开发者',
+        items: [
+          { text: '贡献指南', link: '/developer/contributing' }
+        ]
+      }
+    ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/PokeForum/PokeForum-Docs' }
